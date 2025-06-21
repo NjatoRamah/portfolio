@@ -12,11 +12,12 @@ function Skills() {
                     <div className='progress__circle'>
                         <CircularProgressbar
                          strokeWidth={7.5}
-                         text={`${percentage}%`}
+                         text = {title}
+                         //text={`${percentage}%`}
                          value={percentage}
                         />
                     </div>
-                    <h3 className='skills__title'>{title}</h3>
+                    <h3 className='skills__title'></h3>
                 </div>
             )
         })}

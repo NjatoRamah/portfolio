@@ -7,6 +7,7 @@ import './about.css'
 import Skills from '../../components/Skills';
 import { resume } from '../../data';
 import ResumeItem from '../../components/ResumeItem';
+import Profile from "../../assets/image/sary.jpg"
 
 function About() {
   return (
@@ -22,7 +23,8 @@ function About() {
             <a href={CV} download='' className='button'>Télécharger mon Cv <span className='button__icon'><FaDownload/></span></a>
           </div>
           <div className='stats grid'>
-            <Stats/>
+            {/* <Stats/> */}
+            <img src={Profile} alt='sary' className='home__img' />
           </div>
         </div>
       </section>
