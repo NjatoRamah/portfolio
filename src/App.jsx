@@ -1,5 +1,5 @@
 import React from 'react'
-import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import {Routes, Route} from 'react-router-dom'
 import './App.css'
 import Navbar from './components/Navbar'
 import Themes from './components/Themes'
@@ -10,7 +10,7 @@ import Portefolio from './pages/portefolio/Portefolio'
 
 function App() {
   return (
-    <BrowserRouter>
+    <>
       <Navbar/>
       <Themes/>
       <Routes>
@@ -20,7 +20,8 @@ function App() {
         <Route path='portefolio' element={<Portefolio/>}/>
         <Route path='contact' element={<Contact/> } />
       </Routes>
-    </BrowserRouter>
+    </>
+    
   )
 }
 
