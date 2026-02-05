@@ -124,17 +124,17 @@ export const resume = [
         id:1,
         category:'experience',
         icon: <FaBriefcase/>,
-        year: '2024-2025',
-        title: 'SMMEC',
-        desc: 'Développeur, flutteur, Laravel, React JS, RestAPI, Maintenance Microfinance crédit en PHP 5 Cors Bankings ( Orchide), Chez SMMEC.',
+        year: '2025-2026',
+        title: 'Kontiki Service',
+        desc: 'Développeur, VueJS, NextJs, Laravel, React JS, RestAPI, Javascrypt, PHP8, PHP7, Slim Symfony',
     },
     {
         id:1,
         category:'experience',
         icon: <FaBriefcase/>,
-        year: '2025-2026',
-        title: 'Kontiki Service',
-        desc: 'Développeur, VueJS, NextJs, Laravel, React JS, RestAPI, Javascrypt, PHP8, PHP7, Slim Symfony',
+        year: '2024-2025',
+        title: 'SMMEC',
+        desc: 'Développeur, flutteur, Laravel, React JS, RestAPI, Maintenance Microfinance crédit en PHP 5 Cors Bankings ( Orchide), Chez SMMEC.',
     },
     {
         id:2,
@@ -320,6 +320,16 @@ export const skills= [
         id:11,
         title:'Power BI',
         
+    }, 
+    {
+        id:12,
+        title:'Vue JS',
+        
+    },
+    {
+        id:12,
+        title:'NextJS',
+        
     },
 ];
 export const portfolio = [
@@ -327,6 +337,7 @@ export const portfolio = [
         id:1,
         img:work1,
         title: 'BudgetDevis.com',
+        link: 'https://budgetdevis.com',
         details: [
             {
                 icon: <FiFileText/>,
@@ -350,6 +361,7 @@ export const portfolio = [
         id:2,
         img: work2,
         title: 'Leadit.com',
+        link: 'https://budgetdevis.com/leadit/3.17/',
         details:[
             {
                 icon:<FiFileText/>,
@@ -372,11 +384,14 @@ export const portfolio = [
         id:3,
         img: work3,
         title: 'Jeuxgagne',
+        link: 'https://jeuxgagne.fr',
         details:[
             {
                 icon:<FiFileText/>,
                 title: 'Project :',
                 desc: 'Jeuxgagne',
+        
+
             },
             {
                 icon:<FiUser/>,
@@ -394,6 +409,7 @@ export const portfolio = [
         id:4,
         img: work4,
         title: 'Tempsprivilege.com',
+        link: 'https://tempsprivilege.com',
         details:[
             {
                 icon:<FiFileText/>,
@@ -416,6 +432,7 @@ export const portfolio = [
         id:4,
         img: work5,
         title: 'Minitools',
+        link: 'https://front.ktkapp.com/mini-tools/',
         details:[
             {
                 icon:<FiFileText/>,

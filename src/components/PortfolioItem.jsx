@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Close from '../assets/image/stop.png'
 
-function PortfolioItem({ img, title, details }) {
+function PortfolioItem({ img, title, details, link }) {
     const [modal, setModal] = useState(false);
     const toggleModal = () => {
         setModal(!modal);
@@ -27,11 +27,22 @@ function PortfolioItem({ img, title, details }) {
                                             <span className='item__title'>{title} </span>
                                             <span className='item__details'>{desc} </span>
                                         </div>
+
                                     </li>
                                 );
                             })}
                         </ul>
                         <img src={img} alt='' className='modal__img' />
+                        {link && (
+                            <a
+                                href={link}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="portfolio__link"
+                            >
+                                {link}
+                            </a>
+                        )}
                     </div>
                 </div>
             )}
