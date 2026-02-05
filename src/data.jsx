@@ -1,10 +1,10 @@
 import{ FaHome, FaUser, FaFolderOpen, FaEnvelopeOpen, FaBriefcase, FaGraduationCap, FaCode,} from 'react-icons/fa';
 import { FiFileText, FiUser, FiExternalLink} from 'react-icons/fi';
-import work1 from './assets/sary/Call center.jpg';
-import work2 from './assets/sary/2.jpg';
-import work3 from './assets/sary/nature.jpg';
-import work4 from './assets/sary/course-03.jpg';
-import work5 from './assets/sary/nature.jpg';
+import work1 from './assets/sary/budgetdevis.png';
+import work2 from './assets/sary/jeuxgagne.png';
+import work3 from './assets/sary/temprivilege.png';
+import work4 from './assets/sary/leadit.png';
+import work5 from './assets/sary/minitools.png';
 import work6 from './assets/sary/profile1.png';
 
 import Theme1 from './assets/sary/viloet.png';
@@ -58,7 +58,7 @@ export const personalInfo = [
     {
         id:3,
         title: 'Age ',
-        description: '29 Ans',
+        description: '31 Ans',
     },
     {
         id: 4,
@@ -127,6 +127,14 @@ export const resume = [
         year: '2024-2025',
         title: 'SMMEC',
         desc: 'Développeur, flutteur, Laravel, React JS, RestAPI, Maintenance Microfinance crédit en PHP 5 Cors Bankings ( Orchide), Chez SMMEC.',
+    },
+    {
+        id:1,
+        category:'experience',
+        icon: <FaBriefcase/>,
+        year: '2025-2026',
+        title: 'Kontiki Service',
+        desc: 'Développeur, VueJS, NextJs, Laravel, React JS, RestAPI, Javascrypt, PHP8, PHP7, Slim Symfony',
     },
     {
         id:2,
@@ -318,22 +326,22 @@ export const portfolio = [
     {
         id:1,
         img:work1,
-        title: 'Photo Editing',
+        title: 'BudgetDevis.com',
         details: [
             {
                 icon: <FiFileText/>,
-                title: 'Project:',
-                desc: 'Photo',
+                title: 'BudgetDevis',
+                desc: "Devis GRATUITS en ligne: demandez à nos partenaires de confiance Budgetdevis s'est associé avec des entreprises expertes dans les domaines des travaux et rénovation d'habitat, des économies d'énergie, de la gestion de patrimoine, des assurances... pour vous proposer des devis gratuits et sans engagement adaptés à vos besoins.",
             },
             {
                 icon: <FiUser/>,
                 title: 'Client:',
-                desc: 'Dribble',
+                desc: 'KontikiService',
             },
             {
                 icon: <FaCode/>,
                 title: 'Language:',
-                desc: 'Adobe Photoshop',
+                desc: 'Laravel',
             },
 
         ]
@@ -341,29 +349,29 @@ export const portfolio = [
     {
         id:2,
         img: work2,
-        title: 'Website Design',
+        title: 'Leadit.com',
         details:[
             {
                 icon:<FiFileText/>,
                 title: 'Project :',
-                desc: 'Website',
+                desc: 'WebApplication',
             },
             {
                 icon:<FiUser/>,
                 title:'Client :',
-                desc: 'Dribble',
+                desc: 'KontikiService',
             },
             {
                 icon: <FaCode/>,
                 title: 'Language:',
-                desc: 'Adobe Photoshop',
+                desc: 'Nextvue, PHP',
             },
         ]
     },
     {
         id:3,
         img: work3,
-        title: 'Video Editing',
+        title: 'Jeuxgagne',
         details:[
             {
                 icon:<FiFileText/>,
@@ -385,7 +393,7 @@ export const portfolio = [
     {
         id:4,
         img: work4,
-        title: 'Evenement',
+        title: 'Tempsprivilege.com',
         details:[
             {
                 icon:<FiFileText/>,
