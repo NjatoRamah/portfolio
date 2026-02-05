@@ -1,9 +1,9 @@
 import{ FaHome, FaUser, FaFolderOpen, FaEnvelopeOpen, FaBriefcase, FaGraduationCap, FaCode,} from 'react-icons/fa';
 import { FiFileText, FiUser, FiExternalLink} from 'react-icons/fi';
 import work1 from './assets/sary/budgetdevis.png';
-import work2 from './assets/sary/jeuxgagne.png';
-import work3 from './assets/sary/temprivilege.png';
-import work4 from './assets/sary/leadit.png';
+import work3 from './assets/sary/jeuxgagne.png';
+import work4 from './assets/sary/temprivilege.png';
+import work2 from './assets/sary/leadit.png';
 import work5 from './assets/sary/minitools.png';
 import work6 from './assets/sary/profile1.png';
 
@@ -376,17 +376,17 @@ export const portfolio = [
             {
                 icon:<FiFileText/>,
                 title: 'Project :',
-                desc: 'Video',
+                desc: 'Jeuxgagne',
             },
             {
                 icon:<FiUser/>,
                 title:'Client :',
-                desc: 'Dribble',
+                desc: 'KontikiServices',
             },
             {
                 icon: <FaCode/>,
                 title: 'Language:',
-                desc: 'Adobe Photoshop',
+                desc: 'Laravel',
             },
         ]
     },
@@ -398,17 +398,39 @@ export const portfolio = [
             {
                 icon:<FiFileText/>,
                 title: 'Project :',
-                desc: 'Evenement',
+                desc: 'Tempsprivilege.com',
             },
             {
                 icon:<FiUser/>,
                 title:'Client :',
-                desc: 'Dribble',
+                desc: 'Kontiki Services',
             },
             {
                 icon: <FaCode/>,
                 title: 'Language:',
-                desc: 'Adobe Photoshop',
+                desc: 'PHP',
+            },
+        ]
+    },
+    {
+        id:4,
+        img: work5,
+        title: 'Minitools',
+        details:[
+            {
+                icon:<FiFileText/>,
+                title: 'Project :',
+                desc: 'Minitools',
+            },
+            {
+                icon:<FiUser/>,
+                title:'Client :',
+                desc: 'KontikiService',
+            },
+            {
+                icon: <FaCode/>,
+                title: 'Language:',
+                desc: 'Laravel React',
             },
         ]
     }
